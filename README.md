@@ -12,7 +12,7 @@ Users should be able to:
 
 ## Links
 
-- Live Site URL: [Stats card]()
+- Live Site URL: [Stats card](https://rstrzelczyk98.github.io/stats-card-component/)
 
 ## Built with
 
