@@ -32,8 +32,6 @@ body {
   border-radius: 0.7rem;
   display: grid;
   grid-template-rows: auto;
-  /* display: flex;
-  flex-direction: column-reverse; */
   overflow: hidden;
   margin: 2rem;
 }
@@ -60,7 +58,7 @@ body {
   font-weight: 700;
   font-size: 2.8rem;
   line-height: 1.2;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.8em;
 }
 
 .info span {
@@ -76,12 +74,11 @@ body {
   font-weight: 400;
   font-size: 1.5rem;
   line-height: 1.6;
-  margin-bottom: 1em;
+  margin-bottom: 2.5em;
 }
 
 .list {
   display: grid;
-  grid-template-columns: min-content;
   justify-content: center;
   gap: 2rem;
 }
@@ -125,10 +122,8 @@ body {
 
 @media screen and (min-width: 800px) {
   .card {
-    max-width: 100rem;
-    max-height: 43rem;
+    max-width: 98rem;
     grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
   }
   .info {
     padding: 5rem;
